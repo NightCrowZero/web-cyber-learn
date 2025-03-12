@@ -1,0 +1,19 @@
+{
+  "header": {
+    "title": "CyberLearn",
+    "home": "Головна",
+    "service": "О сервісі",
+    "contacts": "Контакты",
+    "login": "Увійти",
+    "logout": "Вийти"
+  },
+  "course": {
+    "title": "Назва курсу",
+    "popular_courses": "Популярні курси",
+    "other_courses": "Інщі курси",
+    "more": "Детальніше",
+    "lesson": "Урок",
+    "materials": "Основні матеріали",
+    "download": "Завантажити"
+  }
+}

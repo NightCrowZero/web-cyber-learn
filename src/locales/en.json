@@ -1,0 +1,19 @@
+{
+  "header": {
+    "title": "CyberLearn",
+    "home": "Home",
+    "service": "About us",
+    "contacts": "Contacts",
+    "login": "Login",
+    "logout": "Logout"
+  },
+  "course": {
+    "title": "Course Title",
+    "popular_courses": "Popular courses",
+    "other_courses": "Other courses",
+    "more": "More",
+    "lesson": "Lesson",
+    "materials": "Main Materials",
+    "download": "Download"
+  }
+}
