@@ -11,7 +11,7 @@ import {
   CardMedia,
   LinearProgress,
 } from "@mui/material";
-import { useNavigate } from "react-router-dom"; // React Router для навигации
+import { useNavigate } from "react-router-dom"; 
 import { useTranslation } from "react-i18next";
 
 const userCourses = [
@@ -40,7 +40,7 @@ const userCourses = [
 
 const UserCoursesPage = () => {
 
-  const navigate = useNavigate(); // Навигация React Router
+  const navigate = useNavigate(); 
   const { t } = useTranslation();
 
   return (
@@ -48,7 +48,7 @@ const UserCoursesPage = () => {
     sx={{
       display: "flex",
       flexDirection: "column",
-      minHeight: "94vh", // Минимальная высота 100% экрана
+      minHeight: "94vh", 
     }}
     >
       {/* Up panel */}
@@ -72,7 +72,7 @@ const UserCoursesPage = () => {
             {t("header.title")}
           </Typography>
           <Button color="inherit" sx={{ color: "#fff", fontWeight: "bold" }}
-          onClick={() => navigate("/")} // Переход на страницу входа/авторизации
+          onClick={() => navigate("/")} 
           >
           {t("header.home")}
           </Button>
@@ -92,14 +92,14 @@ const UserCoursesPage = () => {
               padding: "5px 15px",
               ":hover": { background: "rgba(0, 229, 255, 0.1)" },
             }}
-            onClick={() => navigate("/auth")} // Переход на страницу входа/авторизации
+            onClick={() => navigate("/auth")} 
           >
             {t("header.login")}
           </Button>
         </Toolbar>
       </AppBar>
 
-      {/* Список курсов пользователя */}
+      {/* List of user courses */}
       <Box sx={{ padding: 3 }}>
         <Typography variant="h4" sx={{ textAlign: "center", marginBottom: 3, color: "#1a237e" }}>
           Ваши курсы
